@@ -1,0 +1,86 @@
+.login{
+    margin-top: 1.5rem;
+}
+.loginBox{
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid #e8ccec;
+    background: #e8ccec;
+    color: #580454;
+}
+h2{
+    margin-top: 3rem;
+    margin-left: 0.6rem;
+    font-size: 2rem;
+}
+.side h3{
+    margin-left: 0.6rem;
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+.emailLog{
+    margin-left: -0.2rem;
+    width: 102%;
+    border: 2px solid #fff;
+    background: #fff;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.emailLog h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: gray;
+    font-size: 1.2rem;
+}
+input{
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: none;
+    background: rgb(235, 235, 235);
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    width: 90%;
+}
+.btnAndForget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnAndForget h5{
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+button{
+    margin-top: 2rem;
+    width: 100%;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width:0px) and (max-width:500px){
+    .loginBox{
+        width: 80%;
+    }
+}
+@media (min-width:501px) and (max-width:600px){
+    .loginBox{
+        width: 60%;
+    }
+}
+@media (min-width:601px) and (max-width:800px){
+    .loginBox{
+        width: 50%;
+    }
+}
+@media (min-width:801px) and (max-width:900px){
+    .loginBox{
+        width: 43%;
+    }
+}

@@ -1,0 +1,157 @@
+.home{
+    margin-top: 1.5rem;
+}
+.box{
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid #e8ccec;
+    background: #e8ccec;
+    color: #580454;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.h h3{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+img{
+    margin-left: 3rem;
+}
+.log{
+    margin-left: -0.2rem;
+    width: 101%;
+    border: 2px solid #fff;
+    background: #fff;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.btns{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 2rem;
+    width: 100%;
+    margin: 1rem;
+    background: #580454;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media (min-width:0px) and (max-width:1200px){
+    *{
+        overflow-x: hidden;
+    }
+    .log{
+        margin-left: -0.1rem;
+    }
+    button{
+        padding: 15px;
+        margin: 0rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (min-width:0px) and (max-width:361px){
+    .box{
+        width: 95%;
+    }
+    img{
+        width: 290px;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width:361px) and (max-width:426px){
+    .box{
+        width: 80%;
+    }
+    img{
+        width: 290px;
+        margin-left: 1.7rem;
+    }
+}
+
+@media (min-width:426px) and (max-width:500px){
+    .box{
+        width: 75%;
+    }
+    img{
+        width: 290px;
+        margin-left: 1.8rem;
+    }
+}
+
+@media (min-width:500px) and (max-width:600px){
+    .box{
+        width: 78%;
+    }
+    img{
+        width: 290px;
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width:601px) and (max-width:700px){
+    .box{
+        width: 70%;
+    }
+    img{
+        width: 290px;
+        margin-left: 5.8rem;
+    }
+}
+@media (min-width:701px) and (max-width:800px){
+    .box{
+        width: 50%;
+    }
+    img{
+        width: 290px;
+        margin-left: 3rem;
+    }
+}
+@media (min-width:801px) and (max-width:900px){
+    .box{
+        width: 48%;
+    }
+    img{
+        width: 290px;
+        margin-left: 3.7rem;
+    }
+}
+@media (min-width:901px) and (max-width:1000px){
+    .box{
+        width: 45%;
+    }
+    img{
+        width: 290px;
+        margin-left: 3.9rem;
+    }
+}
+@media (min-width:1001px) and (max-width:1130px){
+    .box{
+        width: 42%;
+    }
+    img{
+        width: 290px;
+        margin-left: 3.9rem;
+    }
+}
+@media (min-width:1130px) and (max-width:1300px){
+    img{
+        width: 290px;
+        margin-left: 3rem;
+    }
+}
