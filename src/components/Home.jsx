@@ -1,5 +1,6 @@
 import "../style/Home.css"
 import { Link } from "react-router-dom"
+import boxImage from '../images/box1.png';
 
 function Home() {
 
@@ -7,7 +8,7 @@ function Home() {
       <>
         <div className="home">
           <div className="box">
-            <img src="../images/box1.png" alt="img" />
+            <img src={boxImage} alt="img" />
             <h1>Distro</h1>
             <div className="h">
               <h3>"Make distribution easier"</h3>
